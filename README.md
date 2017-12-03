@@ -1,18 +1,27 @@
-# vue-cli
+Final Project - The Stock Trader
 
-> A Vue.js project
+Project Introduction
+Project Setup and Planning
+Creating the First Components
+Setup Project Routes
+Adding a Header and Navigation
+Planning the Next Steps
+Creating Stocks Components
+Adding a "Buy" Button
+Setting up the Vuex State Management
+Adding a Portfolio Module to Vuex
+Working on the Portfolio Stocks
+Connecting the Portfolio with Vuex
+Time to fix some Errors
+Displaying the Funds
+Adding some Order Checks
+Making Funds Look Nicer with Filters
+Ending the Day - Randomizing Stocks
+Animating the Route Transitions
+Saving & Fetching Data - Adding a Dropdown
+Setting up vue-resource and Firebase
+Saving Data (PUT Request)
+Fetching Data (GET Request)
+Testing and Bug Fixes
+Debugging Vuex with Vue Developer Tools
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
