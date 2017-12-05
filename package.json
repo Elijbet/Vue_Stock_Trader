@@ -12,7 +12,8 @@
     "bootstrap": "^3.3.7",
     "bootstrap-vue": "^1.3.0",
     "vue": "^2.0.1",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
