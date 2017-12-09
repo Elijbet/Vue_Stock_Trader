@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<app-stock v-for="stock in stocks" :stock="stock"></app-stock>
+		<app-stock v-for="stock in stocks" :stock="stock"></app-stock> <!-- send variable stock in stocks with props to stock component -->
 	</div>
 </template>
 
@@ -14,7 +14,7 @@ import Stock from './Stock.vue';
 		},
 		computed: {
 			stocks(){
-				return this.$store.getters.stocks;
+				return this.$store.getters.stocks; //state.stocks from stocks.js
 			}
 		}
 	}

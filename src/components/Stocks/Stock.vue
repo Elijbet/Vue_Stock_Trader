@@ -30,7 +30,7 @@
 
 <script>
 	export default {
-			props: ['stock'],
+			props: ['stock'], //individual stock from state.stocks - state of all stocks - sent here with prop
 			data(){
 				return {
 					quantity: 0
@@ -43,7 +43,7 @@
 						stockPrice: this.stock.price,
 						quantity: this.stock.quantity
 					}
-					console.log(order); //I think this is where I will access the store
+					console.log(order); 
 					this.quantity = 0;
 				}
 			}
