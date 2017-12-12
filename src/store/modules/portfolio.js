@@ -4,7 +4,7 @@ const state = {
 }
 
 const mutations = {
-	'BUY_STOCK'(state, {stockID, quantity, stockPrice}) { //properties from the order in the stock component, sent from stocks to stock with a prop (individual stock)
+	'BUY_STOCK'(state, {stockId, quantity, stockPrice}) { //properties from the order in the stock component, sent from stocks to stock with a prop (individual stock)
 		const record = state.stocks.find(element => element.id == stockId) //find if there is stock with this id in my portfolio record
 		if (record){
 			record.quantity += quantity; //if there is record, add new quantity to existing
@@ -15,7 +15,7 @@ const mutations = {
 			});
 		}
 		state.funds -= stockPrice * quantity;
-	} 
+	}, 
 	'SELL_STOCK'(state, {stockId, quantity, stockPrice}) {
 		const record = state.stocks.find(element => element.id == stockId);
 		if (record.quanity > quantity) {

@@ -9,13 +9,15 @@ const mutations = {
 		state.stocks = stocks; //set because we loaded them from the server, or because loaded the app
 	}, //you can name payload whatever you want
 	'RND_STOCKS' (state) { 
-
+		state.stocks.forEach(stock => {
+			stock.price = Math.round(stock.price * (1 + Math.random() - 0.5));
+		});
 	}
 };
 
 const actions = {
 	buyStock: ({commit}, order) => {
-		commit();
+		commit('BUY_STOCK', order);
 	}, 
 	initStocks: ({commit}) => {
 		commit('SET_STOCKS', stocks); //stocks from data file
