@@ -1,3 +1,5 @@
+Visit the app at http://vuejs-deploy-stockmarket-trader.s3-website-us-west-1.amazonaws.com/
+
 Final Project - The Stock Trader
 
 Project Introduction;
