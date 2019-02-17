@@ -1,4 +1,10 @@
-Visit the app at http://vuejs-deploy-stockmarket-trader.s3-website-us-west-1.amazonaws.com/
+# Vue learning project with Firebase backend
+
+## Visit the app at http://vuejs-deploy-stockmarket-trader.s3-website-us-west-1.amazonaws.com/
+
+-----------------------------------------
+Stock market up that lets you buy the stock to make a portfolio of stocks, manage the available funds, and end the day by randomizing the stock prices.
+-----------------------------------------
 
 Final Project - The Stock Trader
 
@@ -49,4 +55,10 @@ Fetching Data (GET Request);
 Testing and Bug Fixes;
 
 Debugging Vuex with Vue Developer Tools;
+
+-----------------------------------------
+
+VueJS project following Maximilian Schwarzmüller's Udemy course 'Vue JS 2 - The Complete Guide'
+
+
 
